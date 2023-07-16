@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -11,7 +12,7 @@
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ad-Soyadı girin"
+        android:hint="Name Surname"
         android:imeOptions="actionDone"
         android:singleLine="true" />
 
@@ -21,6 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:text="Anketi Başlat" />
+        android:text="Login" />
 
 </LinearLayout>

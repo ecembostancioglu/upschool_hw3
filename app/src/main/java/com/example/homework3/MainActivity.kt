@@ -24,11 +24,12 @@ class MainActivity : AppCompatActivity() {
             val name = editTextName.text.toString().trim()
 
             if (name.isNotEmpty()) {
-                val intent = Intent(this@MainActivity, SurveyActivity::class.java)
+                val intent = Intent(this@MainActivity, PersonalInfoActivity::class.java)
                 intent.putExtra("name", name)
                 startActivity(intent)
             }
         }
+
 
     }
 }
